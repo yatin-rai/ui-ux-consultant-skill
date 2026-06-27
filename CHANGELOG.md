@@ -16,6 +16,7 @@
 ### Bug Fixes
 
 * trigger release ([91137f7](https://github.com/yatin-rai/ui-ux-consultant-skill/commit/91137f710e7030107007770cc45aa9b0531a31ff))
+# 1.0.0 (2026-06-27)
 
 
 ### Features
