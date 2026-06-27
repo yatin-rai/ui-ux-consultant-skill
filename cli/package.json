@@ -32,7 +32,15 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": ["claude", "cursor", "skill", "ui-ux", "angular", "react", "design-system"],
+  "keywords": [
+    "claude",
+    "cursor",
+    "skill",
+    "ui-ux",
+    "angular",
+    "react",
+    "design-system"
+  ],
   "author": "Yatin Rai <raiyatin55@gmail.com>",
   "license": "MIT",
   "repository": {
