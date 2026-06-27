@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+      - dev
+
+jobs:
+  build:
+    name: Build & Lint
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install CLI dependencies
+        run: cd cli && npm ci
+
+      - name: Sync assets
+        run: cd cli && npm run sync:assets
+
+      - name: Build CLI
+        run: cd cli && npm run build
+
+      - name: Verify CLI runs
+        run: node cli/dist/index.js versions

@@ -1,0 +1,10 @@
+{
+  "name": "ui-ux-consultant",
+  "version": "1.0.0",
+  "description": "Multi-framework UI/UX design consultant — 16 frameworks, code patterns, and checklists.",
+  "author": "Yatin Rai",
+  "license": "MIT",
+  "repository": "https://github.com/yatin-rai/ui-ux-consultant-skill",
+  "skillPath": ".claude/skills/ui-ux-consultant",
+  "entrypoint": "SKILL.md"
+}

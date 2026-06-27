@@ -1,0 +1,19 @@
+{
+  "id": "ui-ux-consultant",
+  "name": "UI/UX Consultant",
+  "tagline": "16-framework UI/UX design intelligence for professional frontend development",
+  "description": "Embed a UI/UX design consultant directly in your AI assistant. Covers 16 frameworks (Angular, React, Vue, Next.js, Svelte, Flutter, SwiftUI, and more) with opinionated code patterns, accessibility checklists, a curated design catalog (23 styles, 35 palettes, 31 font pairings, 41 product types), and pre-delivery quality gates.",
+  "category": "design",
+  "tags": ["ui", "ux", "angular", "react", "design-system", "accessibility", "multi-framework"],
+  "author": {
+    "name": "Yatin Rai",
+    "github": "yatin-rai",
+    "url": "https://github.com/yatin-rai"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/yatin-rai/ui-ux-consultant-skill",
+  "install": {
+    "cli": "npm install -g ui-ux-consultant-cli",
+    "command": "uiux init --ai claude"
+  }
+}

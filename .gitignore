@@ -1,0 +1,6 @@
+node_modules/
+cli/dist/
+cli/assets/ui-ux-consultant/
+CHANGELOG.md
+.env
+*.log

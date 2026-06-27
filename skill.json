@@ -1,0 +1,17 @@
+{
+  "name": "ui-ux-consultant",
+  "version": "1.0.0",
+  "displayName": "UI/UX Consultant",
+  "description": "Multi-framework UI/UX design consultant embedded in Claude — 16 frameworks with code patterns, checklists, and best practices.",
+  "author": "Yatin Rai <raiyatin55@gmail.com>",
+  "homepage": "https://github.com/yatin-rai/ui-ux-consultant-skill",
+  "repository": "https://github.com/yatin-rai/ui-ux-consultant-skill",
+  "license": "MIT",
+  "keywords": ["ui", "ux", "angular", "react", "vue", "design", "claude-skill", "design-system"],
+  "skillPath": ".claude/skills/ui-ux-consultant",
+  "entrypoint": "SKILL.md",
+  "platforms": ["claude-code", "cursor", "windsurf", "copilot"],
+  "engines": {
+    "claude": ">=1.0.0"
+  }
+}
