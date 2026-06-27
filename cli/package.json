@@ -1,6 +1,6 @@
 {
   "name": "ui-ux-consultant-cli",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.1",
   "description": "CLI installer for the UI/UX Consultant Claude skill",
   "bin": {
     "uiux": "dist/index.js"
@@ -32,7 +32,15 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": ["claude", "cursor", "skill", "ui-ux", "angular", "react", "design-system"],
+  "keywords": [
+    "claude",
+    "cursor",
+    "skill",
+    "ui-ux",
+    "angular",
+    "react",
+    "design-system"
+  ],
   "author": "Yatin Rai <raiyatin55@gmail.com>",
   "license": "MIT",
   "repository": {
