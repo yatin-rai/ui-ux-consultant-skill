@@ -1,6 +1,6 @@
 {
   "name": "ui-ux-consultant-cli",
-  "version": "1.1.0-beta.1",
+  "version": "1.1.0-beta.2",
   "description": "CLI installer for the UI/UX Consultant Claude skill",
   "bin": {
     "uiux": "dist/index.js"

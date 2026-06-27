@@ -1,3 +1,10 @@
+# [1.1.0-beta.2](https://github.com/yatin-rai/ui-ux-consultant-skill/compare/v1.1.0-beta.1...v1.1.0-beta.2) (2026-06-27)
+
+
+### Bug Fixes
+
+* **cli:** expand npm keywords and add discoverability badges to README ([6579696](https://github.com/yatin-rai/ui-ux-consultant-skill/commit/657969682ea7ebafe6172b66336bc9d500b40fa7))
+
 # [1.1.0-beta.1](https://github.com/yatin-rai/ui-ux-consultant-skill/compare/v1.0.0...v1.1.0-beta.1) (2026-06-27)
 
 
