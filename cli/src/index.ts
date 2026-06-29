@@ -105,6 +105,11 @@ program
   .option('--yes', 'Skip confirmation prompt', false)
   .option('--dry-run', 'Preview update path without writing any files', false)
   .action(async (opts) => {
+    if (!PLATFORM_PATHS[opts.ai]) {
+      console.error(chalk.red(`Unknown platform: ${opts.ai}`));
+      console.log(`Supported: ${Object.keys(PLATFORM_PATHS).join(', ')}, all`);
+      process.exit(1);
+    }
     const target = getInstallTarget(opts.ai, opts.global, process.cwd());
 
     if (opts.dryRun) {
@@ -138,6 +143,11 @@ program
   .option('--global', 'Remove from global install', false)
   .option('--yes', 'Skip confirmation prompt', false)
   .action(async (opts) => {
+    if (!PLATFORM_PATHS[opts.ai]) {
+      console.error(chalk.red(`Unknown platform: ${opts.ai}`));
+      console.log(`Supported: ${Object.keys(PLATFORM_PATHS).join(', ')}, all`);
+      process.exit(1);
+    }
     const target = getInstallTarget(opts.ai, opts.global, process.cwd());
 
     if (!await fs.pathExists(target)) {

@@ -1,4 +1,5 @@
 node_modules/
+.claude/
 cli/dist/
 cli/assets/ui-ux-consultant/
 CHANGELOG.md
