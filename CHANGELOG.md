@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/yatin-rai/ui-ux-consultant-skill/compare/v1.1.1...v1.1.2) (2026-06-29)
+
+
+### Bug Fixes
+
+* address security review findings ([d049264](https://github.com/yatin-rai/ui-ux-consultant-skill/commit/d04926488d77836000a3a92778541e259877aaf1))
+
 ## [1.1.2-beta.1](https://github.com/yatin-rai/ui-ux-consultant-skill/compare/v1.1.1...v1.1.2-beta.1) (2026-06-27)
 
 
